@@ -1,0 +1,27 @@
+{
+	"name": "Css Ready",
+	"version": "0.0.1",
+	"manifest_version": 2,
+	"description": "Some Css I made for Iready",
+	"permissions": [
+		"webRequest",
+		"webRequestBlocking",
+		"*:https://login.i-ready.com/student/dashboard/home*",
+		"https://login.i-ready.com/student/dashboard/home*"
+	],
+	"web_accessible_resources": [
+		"*.obj", 
+		"*.png",
+		"*.mp3",
+		"*.css",
+		"*.json",
+		"*.ttf",
+		"*.otf",
+		"*.ico",
+		"*.svg",
+		"*.txt"
+	],
+	"background": {
+		"scripts": ["init.js"]
+	}
+}
